@@ -54,4 +54,19 @@
       color: $font-color-orenge;
     }
   }
+  &--flat_gray {
+    color: $font-color-gray_strong;
+    border: 1px solid $border-color-gray_strong;
+    border-radius: 6px;
+    background-color: $background-color-white;
+    &:link {
+      color: $font-color-orenge;
+    }
+    &:visited {
+      color: $font-color-orenge;
+    }
+    &:active {
+      color: $font-color-orenge;
+    }
+  }
 }

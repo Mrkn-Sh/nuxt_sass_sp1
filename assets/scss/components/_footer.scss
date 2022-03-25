@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   height: 84px;
+  border-top: 1px solid $background-color-white_gray;
   > li {
     width: 25%;
   }

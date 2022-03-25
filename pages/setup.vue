@@ -24,12 +24,12 @@
             <button class="btn btn--medium btn--flat_orange">프라이버시</button>
           </dd>
           <dd>
-            <button class="btn btn--medium btn--flat_orange">로그아웃</button>
+            <button class="btn btn--medium btn--flat_gray">로그아웃</button>
           </dd>
         </dl>
       </div>
     </div>
-  <Footer />
+    <Footer />
   </div>
 </template>
 
