@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+// common 공통 밑이 우선임
+@import "./common/variable";
+@import "./common/reset";
+@import "./common/base";
+
+// components 공통
+@import "./components/input";
+@import "./components/button";
+@import "./components/header";
+@import "./components/footer";
+
+// pages
+@import "./pages/login/module";
