@@ -1,0 +1,24 @@
+.footer {
+  > li {
+
+  }
+  &__1 {
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    background-color: url('@/assets/images/menu_1.svg');
+    background-size: 25px 25px;
+  }
+  &__2 {
+
+  }
+  &__3 {
+
+  }
+  &__4 {
+
+  }
+  &__5 {
+
+  }
+}
