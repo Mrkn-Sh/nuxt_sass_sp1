@@ -1,0 +1,19 @@
+.setup {
+  padding: 36px 24px 86px;
+  &__list {
+    margin-bottom: 0px;
+    > dt {
+      margin: 0px 0px 36px;
+      font-size: $font-size-2extra-large;
+      color: $font-color-gray_strong;
+      text-align: center;
+      line-height: 21px;
+      letter-spacing: -0.33333333px;
+      font-family: Confortaa;
+    }
+    > dd:not(:first-of-type) {
+      margin-top: 36px;
+
+      }
+    }
+  }
