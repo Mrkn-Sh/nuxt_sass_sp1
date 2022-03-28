@@ -1,0 +1,16 @@
+.icon {
+  display: inline-block;
+  margin-right: 12px;
+  &--beginner {
+    width: 10px;
+    height: 14px;
+    background-image: url('');
+    background-size: 10px 14px;
+  }
+  &--heartOn {
+
+  }
+  &--heartOff {
+
+  }
+}
