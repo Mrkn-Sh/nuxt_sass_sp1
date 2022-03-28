@@ -1,0 +1,55 @@
+.profileEdit {
+  padding: 0px 16px 26px;
+  &__title {
+    margin-top: 36px;
+    text-align: center;
+    color: $font-color-gray_strong;
+    font-size: $font-size-2extra-large;
+    line-height: 21px;
+    letter-spacing: -.3333333px;
+    font-family: Comfortaa;
+  }
+  &__avatarUpdate {
+    margin-top: 36px;  
+    text-align: center;
+  }
+  &__avatarUpdate {
+    margin-top: 6px;
+    text-align: center;
+    > a {
+      color: $font-color-orange;
+    }  
+  }
+  &__recommend {
+    margin-top: 6px;
+    text-align: center;
+    color: $font-color-red;
+    font-size: $font-size-xsmall;
+  }
+  &__form {
+    margin-top: 32px;
+    > li {
+      &:not(first-child) {
+        margin-top: 16px;
+      }
+    }
+    &__row {
+      &__title {
+        font-size: $font-size-small;
+        color: $font-color-gray_strong;
+      }
+      &__input {
+        display: flex;
+        > li {
+          flex: 1;
+          &:not(:first-child) {
+            margin-left: 24px;
+          }
+        }
+      }
+    }
+  }
+  &__submit {
+    margin-top: 36px
+  }
+}
