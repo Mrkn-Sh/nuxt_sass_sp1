@@ -40,6 +40,19 @@
         <div class="profileEdit__submit">
           <button class="btn btn--large btn--submit">설정</button>
         </div>
+        <div class="modalBg"></div>
+        <div class="modal">
+          <div class="modal__contents">
+            <div class="modal__contents__title">
+              프로필 변경
+            </div>
+            <div class="modal__contents__action">
+              <button class="btn btn--medium btn--flat_orange">
+                설정화면으로 돌아감
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     <Footer />
   </div>

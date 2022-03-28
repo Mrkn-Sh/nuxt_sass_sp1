@@ -1,7 +1,7 @@
 .profileEdit {
-  padding: 0px 16px 26px;
+  position: relative;
+  padding: 36px 16px 26px;
   &__title {
-    margin-top: 36px;
     text-align: center;
     color: $font-color-gray_strong;
     font-size: $font-size-2extra-large;
